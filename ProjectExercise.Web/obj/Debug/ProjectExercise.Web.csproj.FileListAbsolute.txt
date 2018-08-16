@@ -1,0 +1,102 @@
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\Database\ProjectExerciseDB.mdf
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\Database\ProjectExerciseDB_log.ldf
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Web.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Web.pdb
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\Antlr3.Runtime.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\Autofac.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\AutoMapper.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\EntityFramework.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\Newtonsoft.Json.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Core.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Data.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Service.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.Helpers.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.Http.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.Mvc.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.Optimization.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.Providers.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.Razor.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.WebPages.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\WebGrease.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Core.pdb
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Data.pdb
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Service.pdb
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\EntityFramework.xml
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\Newtonsoft.Json.xml
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.Helpers.xml
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.Http.xml
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.Mvc.xml
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.Razor.xml
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.WebPages.xml
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\obj\Debug\ProjectExercise.Web.csprojResolveAssemblyReference.cache
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\obj\Debug\ProjectExercise.Web.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\obj\Debug\ProjectExercise.Web.pdb
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\Autofac.Integration.WebApi.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\NLog.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\Purplelight.Framework.Autofac.Integration.WebApi.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\Autofac.xml
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\Autofac.Integration.WebApi.xml
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Web\bin\NLog.xml
+G:\ProjectExercise\ProjectExercise.Web\bin\Database\ProjectExerciseDB.mdf
+G:\ProjectExercise\ProjectExercise.Web\bin\Database\ProjectExerciseDB_log.ldf
+G:\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Web.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Web.pdb
+G:\ProjectExercise\ProjectExercise.Web\bin\Antlr3.Runtime.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\Autofac.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\Autofac.Integration.Mvc.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\Autofac.Integration.WebApi.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\AutoMapper.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\EntityFramework.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\EntityFramework.SqlServer.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\Newtonsoft.Json.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\NLog.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Core.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Data.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Service.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\Purplelight.Framework.Autofac.Integration.WebApi.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Net.Http.Formatting.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.Helpers.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.Http.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.Http.WebHost.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.Mvc.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.Optimization.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.Providers.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.Razor.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.WebPages.Deployment.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.WebPages.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.WebPages.Razor.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\WebGrease.dll
+G:\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Core.pdb
+G:\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Data.pdb
+G:\ProjectExercise\ProjectExercise.Web\bin\ProjectExercise.Service.pdb
+G:\ProjectExercise\ProjectExercise.Web\bin\Autofac.xml
+G:\ProjectExercise\ProjectExercise.Web\bin\Autofac.Integration.WebApi.xml
+G:\ProjectExercise\ProjectExercise.Web\bin\EntityFramework.xml
+G:\ProjectExercise\ProjectExercise.Web\bin\EntityFramework.SqlServer.xml
+G:\ProjectExercise\ProjectExercise.Web\bin\Newtonsoft.Json.xml
+G:\ProjectExercise\ProjectExercise.Web\bin\NLog.xml
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Net.Http.Formatting.xml
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.Helpers.xml
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.Http.xml
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.Http.WebHost.xml
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.Mvc.xml
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.Razor.xml
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.WebPages.xml
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.WebPages.Deployment.xml
+G:\ProjectExercise\ProjectExercise.Web\bin\System.Web.WebPages.Razor.xml
+G:\ProjectExercise\ProjectExercise.Web\obj\Debug\ProjectExercise.Web.csprojResolveAssemblyReference.cache
+G:\ProjectExercise\ProjectExercise.Web\obj\Debug\ProjectExercise.Web.dll
+G:\ProjectExercise\ProjectExercise.Web\obj\Debug\ProjectExercise.Web.pdb

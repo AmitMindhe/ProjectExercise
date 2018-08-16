@@ -1,0 +1,280 @@
+﻿@model IEnumerable<ContactViewModel>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style type="text/css">
+        body {
+            font-family: Arial;
+            font-size: 10pt;
+        }
+
+        .table {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+        }
+
+        .table th {
+            background-color: #F7F7F7;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .table th, .table td {
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>   
+    <h3 style="align-content:center">Contact List</h3>
+    <form id="contactForm" onsubmit="return false;"> 
+    <table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td style="width: 160px">
+                <b>First Name</b><br />
+                <input type="text" id="txtFirstName" style="width:150px"required="required" />
+            </td>
+            <td style="width: 160px">
+                <b>Last Name:</b><br />
+                <input type="text" id="txtLastName" style="width:150px" required="required"/>
+            </td>
+             <td style="width: 160px">
+                <b>Phone Number</b><br />
+                <input type="number" id="txtPhoneNumber" style="width:150px" required="required"/>
+            </td>
+            <td style="width: 160px">
+                <b>Email Id:</b><br />
+                <input type="email" id="txtEmailId" style="width:150px" required="required"/>
+            </td>
+            <td style="width: 160px">
+                <b>Status:</b><br />
+                <input type="text" id="txtStatus" style="width:150px" required="required"/>
+            </td>
+            <td style="width: 160px">
+                <br />
+                <input type="submit" id="btnAdd" value="Add" style="width:100px"/>
+            </td>
+        </tr>
+    </table>
+        </form>
+    <br /><br />
+    
+    <table id="tblcontacts" class="table" cellpadding="0" cellspacing="0">
+        <tr>
+            <th hidden="hidden"></th>
+            <th style="width:150px">First Name</th>
+            <th style="width:150px">Last Name</th>
+             <th style="width:150px">Phone Number</th>
+            <th style="width:150px">Email Id</th>
+             <th style="width:150px">Status</th>
+              <th style="width:150px"></th>
+        </tr>
+        @foreach (ContactViewModel contact in Model)
+        {
+            <tr>
+                <td class="Id" hidden="hidden">
+                    <span hidden="hidden">@contact.Id</span>
+                </td>
+                <td class="FirstName">
+                    <span>@contact.FirstName</span>
+                    <input type="text" value="@contact.FirstName" style="display:none" required="required"/>
+                </td>
+                <td class="LastName">
+                    <span>@contact.LastName</span>
+                    <input type="text" value="@contact.LastName" style="display:none" required="required" />
+                </td>
+                <td class="PhoneNumber">
+                    <span>@contact.PhoneNumber</span>
+                    <input type="number" value="@contact.PhoneNumber" style="display:none" required="required"/>
+                </td>
+                <td class="EmailId">
+                    <span>@contact.EmailId</span>
+                    <input type="email" value="@contact.EmailId" style="display:none" required="required"/>
+                </td>
+                 <td class="Status">
+                    <span>@contact.Status</span>
+                    <input type="text" value="@contact.Status" style="display:none" required="required"/>
+                </td>
+                <td>
+                    <a class="Edit" href="javascript:;">Edit</a>
+                    <a class="Update" href="javascript:;" style="display:none">Update</a>
+                    <a class="Cancel" href="javascript:;" style="display:none">Cancel</a>
+                    <a class="Delete" href="javascript:;">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+         
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.cdnjs.com/ajax/libs/json2/20110223/json2.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //Remove the dummy row if data present.
+            if ($("#tblcontacts tr").length > 2) {
+               // $("#tblcontacts tr:eq(1)").remove();
+            } else {
+                var row = $("#tblcontacts tr:last-child");
+                row.find(".Edit").hide();
+                row.find(".Delete").hide();
+                row.find("span").html('&nbsp;');
+            }
+        });
+        function AppendRow(row, id, firstName, lastName, phoneNumber, emailId, status) {
+            $(".Id", row).find("span").html(id);
+            $(".FirstName", row).find("span").html(firstName);
+            $(".FirstName", row).find("input").val(firstName);
+
+            $(".LastName", row).find("span").html(lastName);
+            $(".LastName", row).find("input").val(lastName);
+
+            $(".PhoneNumber", row).find("span").html(phoneNumber);
+            $(".PhoneNumber", row).find("input").val(phoneNumber);
+
+            $(".EmailId", row).find("span").html(emailId);
+            $(".EmailId", row).find("input").val(emailId);
+
+            $(".Status", row).find("span").html(status);
+            $(".Status", row).find("input").val(status);
+
+            row.find(".Edit").show();
+            row.find(".Delete").show();
+
+            $("#tblcontacts").append(row);
+        };
+
+        //Add event handler.
+        $("body").on("click", "#btnAdd", function () {
+            if ($("Form")[0].checkValidity()) {
+            var txtFirstName = $("#txtFirstName");
+            var txtLastName = $("#txtLastName");
+            var txtPhoneNumber = $("#txtPhoneNumber");
+            var txtEmailId = $("#txtEmailId");
+            var txtStatus = $("#txtStatus");
+            var _contact = {};
+            _contact.FirstName = txtFirstName.val();
+            _contact.LastName = txtLastName.val();
+            _contact.PhoneNumber = txtPhoneNumber.val();
+            _contact.EmailId = txtEmailId.val();
+            _contact.Status = txtStatus.val();
+            $.ajax({
+                type: "POST",
+                url: "/api/Contact/Insert",
+                data: JSON.stringify(_contact),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (r) {
+                    var row = $("#tblcontacts tr:last-child");
+                    if ($("#tblcontacts tr:last-child span").eq(0).html() != "&nbsp;") {
+                        row = row.clone();
+                    }
+                    AppendRow(row, r.Id, r.FirstName, r.LastName, r.PhoneNumber, r.EmailId, r.Status);
+                    txtFirstName.val("");
+                    txtLastName.val("");
+                    txtPhoneNumber.val("");
+                    txtEmailId.val("");
+                    txtStatus.val("");
+                }
+            });
+            } 
+        });
+
+        //Edit event handler.
+        $("body").on("click", "#tblcontacts .Edit", function () {
+            var row = $(this).closest("tr");
+            $("td", row).each(function () {
+                if ($(this).find("input").length > 0) {
+                    $(this).find("input").show();
+                    $(this).find("span").hide();
+                }
+            });
+            row.find(".Update").show();
+            row.find(".Cancel").show();
+            row.find(".Delete").hide();
+            $(this).hide();
+        });
+
+        //Update event handler.
+        $("body").on("click", "#tblcontacts .Update", function () {
+                var row = $(this).closest("tr");
+                $("td", row).each(function () {
+                    if ($(this).find("input").length > 0) {
+                        var span = $(this).find("span");
+                        var input = $(this).find("input");
+                        span.html(input.val());
+                        span.show();
+                        input.hide();
+                    }
+                });
+                row.find(".Edit").show();
+                row.find(".Delete").show();
+                row.find(".Cancel").hide();
+                $(this).hide();
+                var _contact = {};
+                _contact.Id = row.find(".Id").find("span").html();
+                _contact.FirstName = row.find(".FirstName").find("span").html();
+                _contact.LastName = row.find(".LastName").find("span").html();
+                _contact.PhoneNumber = row.find(".PhoneNumber").find("span").html();
+                _contact.EmailId = row.find(".EmailId").find("span").html();
+                _contact.Status = row.find(".Status").find("span").html();
+                $.ajax({
+                    type: "POST",
+                    url: "/api/Contact/Update",
+                    data: JSON.stringify(_contact),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json"
+                });
+        });
+
+        //Cancel event handler.
+        $("body").on("click", "#tblcontacts .Cancel", function () {
+            var row = $(this).closest("tr");
+            $("td", row).each(function () {
+                if ($(this).find("input").length > 0) {
+                    var span = $(this).find("span");
+                    var input = $(this).find("input");
+                    input.val(span.html());
+                    span.show();
+                    input.hide();
+                }
+            });
+            row.find(".Edit").show();
+            row.find(".Delete").show();
+            row.find(".Update").hide();
+            $(this).hide();
+        });
+
+        //Delete event handler.
+        $("body").on("click", "#tblcontacts .Delete", function () {
+            if (confirm("Do you want to delete this row?")) {
+                var row = $(this).closest("tr");
+                var _contact = {};
+                _contact.Id = row.find("span").html();
+                $.ajax({
+                    type: "POST",
+                    url: "/api/Contact/Delete",
+                    data: JSON.stringify(_contact),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        if ($("#tblcontacts tr").length > 2) {
+                            row.remove();
+                        } else {
+                            row.find(".Edit").hide();
+                            row.find(".Delete").hide();
+                            row.find("span").html('&nbsp;');
+                        }
+                    }
+                });
+            }
+        });
+
+    </script>
+</body>
+</html>

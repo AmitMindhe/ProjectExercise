@@ -1,0 +1,9 @@
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Core\bin\Debug\ProjectExercise.Core.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Core\bin\Debug\ProjectExercise.Core.pdb
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Core\obj\Debug\ProjectExercise.Core.csprojResolveAssemblyReference.cache
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Core\obj\Debug\ProjectExercise.Core.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Core\obj\Debug\ProjectExercise.Core.pdb
+G:\ProjectExercise\ProjectExercise.Core\bin\Debug\ProjectExercise.Core.dll
+G:\ProjectExercise\ProjectExercise.Core\bin\Debug\ProjectExercise.Core.pdb
+G:\ProjectExercise\ProjectExercise.Core\obj\Debug\ProjectExercise.Core.dll
+G:\ProjectExercise\ProjectExercise.Core\obj\Debug\ProjectExercise.Core.pdb

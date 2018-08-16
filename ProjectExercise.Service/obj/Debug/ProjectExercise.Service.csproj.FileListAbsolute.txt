@@ -1,0 +1,28 @@
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Service\bin\Debug\Database\ProjectExerciseDB.mdf
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Service\bin\Debug\Database\ProjectExerciseDB_log.ldf
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Service\bin\Debug\ProjectExercise.Service.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Service\bin\Debug\ProjectExercise.Service.pdb
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Service\bin\Debug\ProjectExercise.Core.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Service\bin\Debug\ProjectExercise.Data.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Service\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Service\bin\Debug\EntityFramework.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Service\bin\Debug\ProjectExercise.Core.pdb
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Service\bin\Debug\ProjectExercise.Data.pdb
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Service\bin\Debug\EntityFramework.xml
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Service\obj\Debug\ProjectExercise.Service.csprojResolveAssemblyReference.cache
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Service\obj\Debug\ProjectExercise.Service.dll
+C:\Users\Amit\Documents\Visual Studio 2012\Projects\ProjectExercise\ProjectExercise.Service\obj\Debug\ProjectExercise.Service.pdb
+G:\ProjectExercise\ProjectExercise.Service\bin\Debug\Database\ProjectExerciseDB.mdf
+G:\ProjectExercise\ProjectExercise.Service\bin\Debug\Database\ProjectExerciseDB_log.ldf
+G:\ProjectExercise\ProjectExercise.Service\bin\Debug\ProjectExercise.Service.dll
+G:\ProjectExercise\ProjectExercise.Service\bin\Debug\ProjectExercise.Service.pdb
+G:\ProjectExercise\ProjectExercise.Service\bin\Debug\ProjectExercise.Core.dll
+G:\ProjectExercise\ProjectExercise.Service\bin\Debug\ProjectExercise.Data.dll
+G:\ProjectExercise\ProjectExercise.Service\bin\Debug\System.Linq.Dynamic.dll
+G:\ProjectExercise\ProjectExercise.Service\bin\Debug\EntityFramework.dll
+G:\ProjectExercise\ProjectExercise.Service\bin\Debug\ProjectExercise.Core.pdb
+G:\ProjectExercise\ProjectExercise.Service\bin\Debug\ProjectExercise.Data.pdb
+G:\ProjectExercise\ProjectExercise.Service\bin\Debug\EntityFramework.xml
+G:\ProjectExercise\ProjectExercise.Service\obj\Debug\ProjectExercise.Service.csprojResolveAssemblyReference.cache
+G:\ProjectExercise\ProjectExercise.Service\obj\Debug\ProjectExercise.Service.dll
+G:\ProjectExercise\ProjectExercise.Service\obj\Debug\ProjectExercise.Service.pdb
